@@ -1,120 +1,29 @@
-body{
+*{
     margin: 0;
     padding: 0;
 }
 
-img{
-    display: inline-block;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
+.conteiner{
+    max-width: 1000px;
+    margin: auto;
+}
 
 header{
-    background-color: #3BB9CF;
-    text-align:center;
-    width: 80%;
-    height: 10%;
-    margin: auto;
-    color: white;
-    
-}
-
-main{
-
-    background-image: url(./images/people.jpg);
-    background-repeat: no-repeat;
-    width: 80%;
-    height: 60%;
-    overflow: auto;
-    margin: auto;
-    background-size: cover;
-}
-
-footer{
-    width: 80%;
-    height: 400px;
-    background-color: black;
-    margin: auto;
-}
-
-h1{
-    margin: 0;
-    padding: 5px;
-    display: inline-block;
-  
-}
-
-.letra{
-    font-family: 'Fraunces', serif;
-}
-
-.letra2{
-    font-family: 'Imbue', serif;
-}
- .letra3{
-    font-family: 'Bebas Neue', cursive;
-   
- }
-
-
-
-.box{
-   
-    float:right;
-    margin-top: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    width: 30%;
-    height: 60%;
-    background-color:rgba(177, 186, 192, 0.5);
-    text-align: left;
-    box-sizing: border-box;
-}
-
-.contencaoH{
-margin: 10%;
-box-sizing: border-box;
-}
-
-.contencaoF{
-    width: 80%;
-    height: 30%;
-    overflow: hidden;
-    margin: auto;
-    background-color: black;
-}
-
-
-
-.txtBoxTitulo{
-    text-align: left;
-    font-size: 21px;
-    font-weight: 500;
-    margin: 10%;
-    font-stretch: 5;
-    font-weight: 900;
-}
-
-.txtSubTitulo{
-    margin-top: 1%;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.caixas{
+    background-color: #48c5ce;
     text-align: center;
-    border-radius: 15px;
-    border: none;
+    color: white;
+    padding: 10px;
 }
 
-.img{
-    width: 200px;
-    margin-left:10ex;
-    background-color: purple;
+.title{
+    font-size: 1em;
 }
 
-.txtFooter{
-    color:white;
+section{
+    color: white;
 }
-
-
-

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <title>Página de CapturaDesafio</title>
-
+    
+    <title>WorkShop</title>
+    <link rel="icon" href="./images/ico.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,48 +20,34 @@
 
 
 <body>
-
-    <header>
-        <h1 style="font-size: 2em; letter-spacing: 1px; " class="letra3"> PARTICIPE DO WORKSHOP QUE VAI MUDAR O SEU NEGÓCIO</h1>    
-    </header>
-
-    <main>
-        a
-        <div class="box">
-            <div class="contencaoH">
-                
-                <h1 class="txtBoxTitulo letra3">GARANTA O SEU LUGAR NO WORKSHOP DO MAIOR ESPECIALISTA EM MARKETING DA ATUALIDADE</h1>
-                <p class="txtSubTitulo letra3"> Neste evento você vai aprender todos os segredos que vão te fazer ser um empreendedor de sucesso sem precisar contar com a sorte    </p>
-                
-                <form class="caixas" action="" >
-
-                    <input type="text" name="nome"><br>
-                    <input type="email" name="email"><br>
-                    <select name="estado">
-                        <option value="Norte">Norte</option>
+    <div class="conteiner">
+        <header>
+            <h1 class="title"> PARTICIPE DO WORKSHOP QUE VAI MUDAR O SEU NEGÓCIO</h1>    
+        </header>
+        <section>
+            <div class="formContainer">
+                <h2>GARANTA O SEU LUGAR NO WORKSHOP DO MAIOR ESPECIALISTA EM MARKETING DA ATUALIDADE</h2>
+                <p>Neste evento você vai aprender todos os segredos que vão te fazer ser um empreendedor de sucesso sem precisar contar com a sorte </p>
+                <form method="GET" action="" >
+                    <input type="name" name="name" id="name" placeholder="Nome">
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                    <select name="place">
                         <option value="Sul">Sul</option>
-                        <option value="Centro-Oeste" selected >Centro-Oeste</option>
+                        <option value="Centro-Oeste" selected>Centro-Oeste</option>
+                        <option value="Nordeste">Nordeste</option>
+                        <option value="Norte">Norte</option>
                         <option value="Sudeste">Sudeste</option>
-                        <option value="Norteste">Norteste</option>
                     </select>
 
-                    <br><input type="submit">
+                    <input type="submit" value="INSCREVA-SE">
                 </form>
-               
-
-
-
             </div>
-        </div>
-    </main>
-
-    <footer class=" contencaoF" >
-        <img class="img" src="./images/face.jpg" alt="rosto">
-        <h2 class="letra3" style="color: aliceblue;">O palestrante</h2>
-        <p class="txtFooter letra3">Carlos Fontana é conhecido por dar palestras que abalam a estrutura do marketing tradicional. Prepare-se para sair do evento com uma nova visão do que pe possível ser feito para o seu negócio decolar.</p>
-        <p class="txtFooter letra3">Formado em marketing pela Universidade ZXC e fundador da MakUp, a empresa vencedora dos ultimos 5 Prêmios MArketingBR</p>
-    </footer>
+        </section>
     
+
+
+     
+    </div>    
 </body>
 
 
