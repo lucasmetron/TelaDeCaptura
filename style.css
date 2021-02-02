@@ -21,9 +21,78 @@ header{
 }
 
 .title{
-    font-size: 1em;
+    font-size: 1.3em;
 }
 
 section{
+    padding: 30px;
+    background-image: url(./images/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+.formContainer{
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    float: right;
+    padding: 20px;
+}
+
+h2{
+    font-size: 1.1em;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input,select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
     color: white;
+    background-color:#48c5ce;
+    font-weight: 900;
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(./images/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 10px);
+    background-position-y: center ;
+}
+
+footer{
+    background-color: #202121 ;
+    padding: 40px;
+    text-align: center;
+}
+
+.picture{
+    width: 160px;
+}
+
+.txtFooter{
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.txtFooter p, .txtFooter h2{
+    margin-bottom: 20px;
+}
+
+.txtFooter h2{
+    font-size: 1.5em;
 }
