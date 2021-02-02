@@ -34,7 +34,7 @@ section{
 
 .formContainer{
     max-width: 230px;
-    background-color: #FFFFFFBB;
+    background-color: #ffffff69;
     float: right;
     padding: 20px;
 }
@@ -95,4 +95,38 @@ footer{
 
 .txtFooter h2{
     font-size: 1.5em;
+}
+
+
+@media screen and (max-width: 482px){
+    .formContainer{
+        max-width: 200px;
+        float: none;
+        margin: auto;
+        padding: 20px;
+    }
+
+    footer{
+      
+    }
+
+    .picture{
+        margin: 10px;
+    }
+
+    .txtFooter{
+        display: block;
+        color: white;
+        max-width: 40%;
+        margin-top: 10px;
+        margin: auto;
+        text-align: left;
+        font-size: 0.8em;
+    }
+
+    .txtFooter h2{
+        font-size: 1.2em;
+    }
+
+    
 }
