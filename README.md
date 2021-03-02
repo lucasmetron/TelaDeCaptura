@@ -12,6 +12,7 @@
 
 ![mailchimp](gifs/mailchimp.gif)
 
+### Vejo o projeto você mesmo! Acesse: https://romantic-keller-42e920.netlify.app/
 
 ### Gostou do meu projeto? :D Entre em contato comigo! 
 [Linkedin](https://www.linkedin.com/in/lucas-rosa-058683102/) <br/>
